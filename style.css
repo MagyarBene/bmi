@@ -18,28 +18,48 @@ html, body{background-image:  linear-gradient(to top right, beige, violet);
     max-width: 1000px;
     height: 70%;
     box-shadow: 5px 5px 10px grey ;
+    animation: forwards;
+    animation-duration: 4s;
+    position: relative;
+
 }
 #calc{
-    color: purple;
-    background-color: beige;
+    color: white;
+    background-color: green;
     display: block;
     margin: auto;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey ;
 }
 #res{
-    color: purple;
-    background-color: beige;
+    color: white;
+    background-color: red;
     display: block;
     margin: auto;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    box-shadow: 5px 5px 10px grey ;
 }
 h1{
     color: beige;
     text-align: center;
+    font-weight: bold;
 }
 #ps{
     display: flex;
     justify-content: center;
 }
-#Tave, #Baktalo{
+#weight, #height{
     display: block;
     margin: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+#lbl1, #lbl2{
+    display: flex;
+    justify-content: center;
 }
